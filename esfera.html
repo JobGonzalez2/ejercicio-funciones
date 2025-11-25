@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header></header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            figuras planas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cubo.html">Cubo</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="paralelepipedo.html">Paralelepipedo</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="cilindro.html">Cilindro</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="esfera.html">Esfera</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="cono.html">Cono</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            figuras solidas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="triangulo.html">Triangulo</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="paralelogramo.html">Paralelogramo</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="rectangulo.html">Rectangulo</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="cuadrado.html">Cuadrado</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="rombo.html">Rombo</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="cometa.html">Cometa</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="trapecio.html">Trapecio</a></li>
+                            <hr>
+                            <li><a class="dropdown-item" href="circulo.html">Circulo</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <img src="assets/img/esfera.png" alt="imagen de esfera">
+        <section>
+            <h2>Volumen de una Esfera</h2>
+
+            <label for="radioEsfera" class="form-label">Radio:</label>
+            <input type="number" id="radioEsfera" class="form-control" name="numero" placeholder="Ingrese el radio">
+
+            <button type="button" class="btn btn-success" onclick="volumenEsfera()">Calcular volumen</button>
+
+            <p id="resEsfera"></p>
+
+
+
+        </section>
+    </main>
+    <aside></aside>
+    <footer>
+        <a href="index.html"></a>
+    </footer>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/Volumen.js"></script>
+</body>
+
+</html>
